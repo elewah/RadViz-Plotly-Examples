@@ -1,37 +1,78 @@
-# **RadVis-Plotly Example**
+# RadViz-Plotly
 
-## Contributors: 
-   - [x]  **Abdelrahman Elewah**
-   - [x]  **Abeer Badawi**
-   - [x]  **Haytham Aboulabbas**
-   
-**Submitted to: Prof. Shahryar Rahnamayan**  
-## **We propose a RadViz3D visualization method, we distributed uniformly the N points on the surface of the sphere, then we obtained formulas for x, y, and z mappings using scatter 3D method.**
+<table>
+    <tr>
+        <td>Latest Release</td>
+        <td>
+            <a href="https://pypi.org/project/RadViz-Plotly/"/>
+            <img src="https://badge.fury.io/py/RadViz-Plotly.svg"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Examples</td>
+        <td>
+            <a href="https://badge.fury.io/gh/elewah%2FRadViz-Plotly-Examples">
+            <img src="https://badge.fury.io/gh/elewah%2FRadViz-Plotly-Examples.svg" alt="GitHub version" height="18"></a>
+        </td>
+    </tr>
+    <tr>
+        <td>PyPI Downloads</td>
+        <td>
+            <a href="https://pepy.tech/project/RadViz-Plotly"/>
+            <img src="https://pepy.tech/badge/RadViz-Plotly"/>
+        </td>
+    </tr>
+    <tr>
+        <td>License</td>
+        <td>
+            <a href="https://opensource.org/licenses/MIT"/>
+            <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
+        </td>
+    </tr>
+</table>
 
-## *Follow the below simple steps to run the code:*
-
-### 1- open the following link [link to the code in jupyter notebook](https://mybinder.org/v2/gh/elewah/RadViz-Plotly-Examples/master)
-
-### 3-you can now run any of the folders (the folders are named with the dataset name) with a total of 3 datasets
-
-### 4- Example:
-    * Open Iris Dataset folder
-    * Check the dataset by clicking on the file called Iris.csv 
-    * Open Abalone Data Set.ipynb to run the code, click on 'cell' tab and then 'run all' to run the code
-    * The code consist of two parts
-        1- The first part simply calls the core function
-        2- The second part calls the dataset then divide the dataset to y (labels) and X (the variables)
-        3- We assume the boundary points with 10000 point
-        4- We call our function (RadViz3D) with the given inputs to plot the 3D and 2D visualization successfully
-    * To see the plot more clearly you can click on 'sphere' in the legend (right of the figure) to remove the sphere boundaries and see more details in the figure.
-    * Furthermore, you can click on any of the label names in the legend (right of the figure) to remove or add it again if you want to see specific labels in the plot.
-    * Besides, you can zoom in and out by clicking on the left button of your mouse or laptop and move the touchpad. Also, you can move the figure placement by repeating the same steps except clicking the right button instead of the left.
-        
-### 5- Hint: To plot a 3D visualization the dataset should consist of one label only. Some of the datasets had more than one label so we used Label Encoder technique to Encode other labels with a range of values to plot them accurately ###
+## Short Description 
+The Radviz-Plotly-Example is a repository that contains examples to show how the Radviz-Plotly package works. The Radviz-Plotly package has two functions, 2DRadViz that plots the 2D Radial visualization and 3DRadViz that plots Radial visualization, using the powerful interactive tools in Plotly library.
 
 
-### 6-Locally Installing RadViz-Plotly package using pip command 
-#### RadViz-Plotly package is released on 4 August 2020
-#### The package repository on PyPI, click [here](https://pypi.org/project/RadViz-Plotly/)
-#### To use this library locally please use this command
-pip install RadViz-Plotly 
+## Quickstart 
+### Without Locally Installation
+Try the RadViz-Plotly package**without locally Installation
+Follow these steps**</br>
+1- click this link [here](https://mybinder.org/v2/gh/elewah/RadViz-Plotly-Examples/master). It's a collection of interactive Jupyter notebooks  that contains three folders. Each folder contains Dataset and a Jupyter file that use RadViz-Plotly.</br>
+**Hint:**  sometimes this link takes a long time to open as jupyter's environment.</br>
+2- After the jupyter environment comes out, open Car Evaluation Dataset, Election Dataset, or Iris Dataset folder.  </br>
+3- Open file with extension **.ipynb** (the jupyter file)</br>
+4- After the jypyter file loading, from the **cell** list on the toolbar click **Run All** </br>
+**Hints:**  </br>
+A- At the first running time, it takes time to install the dependences.</br>
+B- This is an interactive RadViz package where you can make zoom, fillter lables, and rotate the 3D graph </br>
+C- This packge depends on the [plotly.py](https://plot.ly/python) packge</br>
+### With Locally Installation
+ 
+1-install **RadViz Plotly** using this command</br>
+```pip install RadViz-Plotly```
+</br>
+2- Download examples repository using this command </br>
+```git clone  https://github.com/elewah/RadViz-Plotly-Examples.git``` </br>
+or Download by clicking [here](https://github.com/elewah/RadViz-Plotly-Examples/archive/master.zip) </br>
+3- Run these examples using jupyter labs to understand how to use RadViz-Plotly package
+
+---
+## Gallary
+<p align="center">
+  <img src="https://elewah.github.io/images/ReadmePicture/Slide3.PNG" width="400" title="2D RadViz">
+  <img src="https://elewah.github.io/images/ReadmePicture/Slide2.PNG" width="400" title="3D RadViz">
+</p>
+
+## About
+The RadViz-Plotly is developed by a research group on the IoT lab at Ontario tech university. The Radviz-Plotly package has two functions, 2DRadViz that plots the 2D Radial visualization and 3DRadViz that plots Radial visualization, using the powerful interactive tools in Plotly library.
+
+## Contact Us
+ **Email:** abdelrahman.elewah@ontariotechu.net
+ 
+## Copyright and Licenses
+
+Code released under the [MIT license](LICENSE).
+
+

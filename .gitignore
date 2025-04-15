@@ -1,0 +1,37 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore virtual environment directories
+venv/
+.env/
+
+# Ignore data files
+*.csv
+
+# Ignore HTML iframe figures
+*/iframe_figures/*.html
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore Python package files
+*.egg
+*.egg-info/
+
+# Ignore pip environment files
+pip-log.txt
+pip-delete-this-directory.txt

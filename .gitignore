@@ -10,8 +10,7 @@ __pycache__/
 venv/
 .env/
 
-# Ignore data files
-*.csv
+
 
 # Ignore HTML iframe figures
 */iframe_figures/*.html
